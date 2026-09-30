@@ -1,0 +1,13 @@
+# See https://github.com/github/linguist
+# Exclude build artifacts
+src/** linguist-detectable
+*.yaml linguist-detectable=false
+*.woff2 binary
+
+*.yml linguist-detectable=false
+src/**/*.ts linguist-detectable
+
+*.gif binary
+public/**/*.html linguist-vendored
+public/index.html linguist-vendored
+* text=auto
